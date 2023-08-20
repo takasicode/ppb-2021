@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "115640403008",
+    "firebase_url": "https://olshop-8b502-default-rtdb.firebaseio.com",
+    "project_id": "olshop-8b502",
+    "storage_bucket": "olshop-8b502.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115640403008:android:9ac31d754eeea2ed730ba5",
+        "android_client_info": {
+          "package_name": "com.udinus.uas4505_12483_12516_12540_12544_13159"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115640403008-dtk18epknhortcu16v6itg02bdonru5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzGhuYn_wwWYpJ4qzcjVBk-1_26IBxGug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115640403008-dtk18epknhortcu16v6itg02bdonru5m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

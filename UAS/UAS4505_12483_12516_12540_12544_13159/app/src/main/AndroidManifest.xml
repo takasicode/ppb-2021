@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.udinus.uas4505_12483_12516_12540_12544_13159">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UAS4505_12483_12516_12540_12544_13159">
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.alamat_saya.MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.fashion_pria.ProductJamTangan"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.fashion_pria.ProductTopi"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.fashion_pria.ProductSepatuFormal"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.fashion_pria.ProductSepatuCasual"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.hapus_akun.HapusAkun"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.akun_bank.HapusBank"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.akun_bank.TambahBank"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.akun_bank.AkunBank"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.alamat_saya.AlamatSaya"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.faq.Faq2"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.faq.Faq1"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.faq.Faq"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.edit_profile.EditProfile"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.tentang_kami.TentangKami"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.fashion_anak.ProductSepatu"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.fashion_wanita.ProductSepatuSneakersWanita"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.fashion_pria.ProductKaos"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.fashion_anak.DetailProduct_Tas"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.fashion_anak.ProductTas"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.fashion_wanita.DetailProduct_Tas_Wanita"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.fashion_wanita.ProductTasWanita"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.SuccessTransactions"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.Transactions"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.fashion_pria.DetailProduct_Hoodie"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.fashion_pria.ProductHoodie"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.fashion_anak.FashionAnak"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.fashion_wanita.FashionWanita"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.fashion_pria.FashionPria"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.profil_akun.ProfilAkun"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.Keranjang"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.Home"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.ConfirmEmail"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.Welcome"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.Forgot_Password"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.Code_Reset"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.Register"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.Login"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.Slide3"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.Slide2"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.Slide1"
+            android:exported="false" />
+        <activity
+            android:name="com.udinus.uas4505_12483_12516_12540_12544_13159.Splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

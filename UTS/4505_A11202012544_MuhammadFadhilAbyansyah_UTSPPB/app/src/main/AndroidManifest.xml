@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.udinus.a4505_a11202012544_muhammadfadhilabyansyah_utsppb">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.4505_A11202012544_MuhammadFadhilAbyansyah_UTSPPB">
+        <activity
+            android:name=".AdapterKRS"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".PanduanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PrestasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KalenderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PengumumanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IPKActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BiayaKuliahActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NilaiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JadwalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InputSKSActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GridItemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SKSActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Slide3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Slide2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Slide1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashscreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

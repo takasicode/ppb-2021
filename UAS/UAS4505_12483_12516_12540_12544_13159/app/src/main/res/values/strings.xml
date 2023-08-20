@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Online Shop Fashion</string>
+    <string name="login">Masuk</string>
+    <string name="email">Email</string>
+    <string name="password">Kata Sandi</string>
+    <string name="confirm_password">Konfirmasi Kata Sandi</string>
+    <string name="next">Selanjutnya</string>
+    <string name="register">Daftar</string>
+    <string name="register_now">Daftar Sekarang</string>
+    <string name="forgot_password">Ubah Kata Sandi</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string-array name="nama_bank">
+        <item>BCA</item>
+        <item>BRI</item>
+        <item>BNI</item>
+        <item>Bank Mandiri</item>
+    </string-array>
+    <string-array name="jenis_kelamin">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+</resources>

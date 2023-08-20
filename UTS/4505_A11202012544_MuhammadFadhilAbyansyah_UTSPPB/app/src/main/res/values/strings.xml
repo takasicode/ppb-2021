@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Aplikasi KRS</string>
+    <string name="sign_in">Masuk</string>
+    <string name="username">Email</string>
+    <string name="password">Kata Sandi</string>
+    <string name="forgot_password">Lupa Password</string>
+    <string name="get_started">Lanjut</string>
+    <string name="log_in">Masuk</string>
+    <string name="txt_code">Kode</string>
+    <string name="enter_your_txt_email">Masukan Email</string>
+    <string name="enter_your_password">Masukan Kata Sandi Baru</string>
+    <string name="enter_reset_code">Masukan Kode</string>
+    <string name="new_password">Kata Sandi Baru</string>
+    <string name="confirm_password">Konfirmasi Kata Sandi</string>
+    <string name="send_request">Kirim</string>
+    <string name="change_password">Ubah Kata Sandi</string>
+</resources>
